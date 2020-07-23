@@ -1,0 +1,22 @@
+.is-required:after{
+  content: "*";
+  color: #f4516c !important;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.kt-content{
+  min-height: 200px!important;
+}
+.invoicePage{
+  background-size: contain!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.vdr.active {
+  background-color: rgba(0,117,255,.1);
+  border-radius: 6px;
+  outline: none!important;
+}

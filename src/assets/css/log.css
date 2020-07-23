@@ -1,0 +1,94 @@
+body{background: #E5E5E5;}
+.log{
+    position: absolute;
+    width: 561px;
+    height: 491px;
+    left: 690px;
+    top: 266px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+  }
+  #word{
+    position: absolute;
+    width: 64px;
+    height: 36px;
+    left: 250px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #434349;  }
+    #subscr{
+        position: absolute;
+        width: 175px;
+        height: 48px;
+        left: 200px;
+        top: 100px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        
+        
+        color: #646C9A;
+    }
+#sign_up{
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 210px;
+    top: 137px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+    
+}
+
+  .fields{
+      position: absolute;
+      width: 561px;
+      height: 491px;
+      left: 115px;
+      top: 190px;
+  }
+  input{
+    border: 1px solid #E2E5EC;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 335px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px ;
+  }
+  .btn{
+      margin-top: 40px;
+      font-size: 16px;
+      color: #FFFFFF;
+      background: #3758FF;
+  }
+  .psw{
+      position: absolute;
+    left: 240px;
+    top: 400px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-decoration: none;
+
+color: #2F2E41;
+  }

@@ -1,0 +1,102 @@
+body{background: #E5E5E5;}
+.reg{
+    position: absolute;
+    width: 561px;
+    height: 750px;
+    left: 690px;
+    top: 130px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#sign{
+    position: absolute;
+    left: 235px;
+    top: 50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #434349;
+}
+.fields{
+    position: absolute;
+      width: 561px;
+      height: 491px;
+      left: 115px;
+      top: 120px;
+}
+input{
+    border: 1px solid #E2E5EC;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 335px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px ;
+  }
+  .btn{
+    margin-top: 270px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #3758FF;
+}
+#N11{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 115px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+#Hepsiburada{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 115px;
+    margin-top: 86px;
+    font-size: 14px;
+}
+#Gittigidiyor{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 115px;
+    margin-top: 86px;
+    font-size: 14px;
+}
+#Trendyol{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 115px;
+    margin-top: 86px;
+    font-size: 14px;
+}
+#check1{
+    margin-left: -12px;
+}
+#check2{
+    margin-left: 37px;
+}
+#check3{
+    margin-left: 31px;
+}
+#check4{
+    margin-left: 15px;
+}
+.checkbox_div{
+    position: absolute;
+    
+    left: px;
+    top: 400px;
+}
+.checkbox{
+    transform:scale(0.5);
+}
