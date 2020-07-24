@@ -1,10 +1,23 @@
 body{background: #E5E5E5;}
+
+body {
+    margin: 0px;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    height: 949px;
+  }
+
 .reg{
     position: absolute;
     width: 561px;
     height: 750px;
-    left: 690px;
-    top: 130px;
+    left: 50%;
+    top: 110px;
     
     background: #FFFFFF;
     border-radius: 10px;
@@ -100,3 +113,18 @@ input{
 .checkbox{
     transform:scale(0.5);
 }
+
+.left_toolbar {
+    background-color: #1E1E2D;
+    margin: 0px;
+  }
+  
+  #logo {
+    margin-top: 50px;
+    margin-left: 30%;
+  }
+  
+  #group {
+    margin-top: 200px;
+    margin-left: 15%;
+  }

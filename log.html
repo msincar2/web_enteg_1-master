@@ -8,17 +8,24 @@
   <link href="/src/assets/css/log.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="log">
-        <h1 id="word">Login</h1>
-        <h2 id="subscr">Login in to your account. Or new user</h2>
-        <a id="sign_up" href="#">Sign up</a>
-        <div class="fields">
-            <input  type="text" placeholder="Username">
-            <input  type="password" placeholder="Password">
-            <input class="btn" type="button" value="Confirm">
+    <div class="container">
+        <div class="left_toolbar">
+            <img id="logo" src="/src/assets/images/logo.png" alt="logo">
+            <img id="group" src="/src/assets/images/group.png" alt="group">
         </div>
-        <a class = "psw"href="registr.html">Forgot passwpord?</a>
+        <div class="log">
+            <h1 id="word">Login</h1>
+            <h2 id="subscr">Login in to your account. Or new user</h2>
+            <a id="sign_up" href="registr.html">Sign up</a>
+            <div class="fields">
+                <input id="Username" type="text" placeholder="Username">
+                <input id="Password" type="password" placeholder="Password">
+                <a href="javascript: chekLog();"><input class="btn" type="button" value="Confirm" onclick="chekLog()"></a>
+            </div>
+            <a class = "psw" href="#">Forgot passwpord?</a>
+        </div>
     </div>
-    
+
+    <script src="enter.js"></script>
 </body>
 </html>
