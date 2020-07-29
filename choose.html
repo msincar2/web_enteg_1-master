@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>İltechSoft | Dashboard</title>
+  <meta name="description" content="Updates and statistics">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/src/assets/css/registr.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="left_toolbar">
+            <img id="logo" src="/src/assets/images/logo.png" alt="logo">
+            <img id="group" src="/src/assets/images/group.png" alt="group">
+        </div>
+        <div class="reg">
+            <h1 id="sign">Sign up</h1>
+            <form action="#">
+                <p id="sign1">Please choose your company type:</p>
+                <label for="first" id="first_label">Public company</label>
+                <input type="checkbox" name="type" id="first" onchange="personal()">
+                <label for="second" id="second_label">Personal company</label>
+                <input type="checkbox" name="type" id="second" onchange="company()">
+            </form>
+            <img src="/src/assets/images/group5.png" id="check" alt="check">
+            <div class="fields" id="fields">
+                <input id="Username1" type="text" placeholder="Username">
+                <input id="Password1" type="password" placeholder="Password">
+                <input id="Email1" type="text" placeholder="Email">
+                <input id="mobile phone number1" type="text" placeholder="Mobile no">
+                <input id="Company_title1" type="text" placeholder="Company title">
+                <input id="Registered_trademark" type="text" placeholder="Registered trademark">
+                <input id="Company_register_number" type="number" placeholder="Company register number">
+                <input id="Trade_registration_number" type="number" placeholder="Trade registration number">
+                <input id="Kep_address" type="number" placeholder="Kep Address">
+                <input id="Tax_office_city" type="number" placeholder="Tax Office City">
+            </div>
+            <div class="field1" id="field1">
+                <input id="Tax_number1" type="text" placeholder="Tax number: Imza Yetkilisi - Ad/soyad/unvan">
+                <p id="text_form">Company contact information</p>
+                <input id="Local_no1" type="text" placeholder="Local no">
+                <input id="mobile No1" type="text" placeholder="Mobile no">
+                <input id="Fax" type="text" placeholder="Fax">
+                <textarea name="Address" id="Address" cols="39" rows="4" placeholder="Address"></textarea>
+                <p id="text_form">Authorized contact information</p>
+                <input id="GSM" type="number" placeholder="GSM">
+                <input id="Personal_Email1" type="number" placeholder="Email">
+                <input class="btn2" type="button" value="Confirm" onclick="postUsers()">
+            </div>
+            <div class="field2" id="field2">
+                <input id="Personal_Username" type="text" placeholder="Username">
+                <input id="Personal_Password" type="password" placeholder="Password">
+                <input id="Email" type="text" placeholder="Email">
+                <input id="mobile phone number" type="text" placeholder="phone number">
+                <input id="membership type : Company title" type="number" placeholder="membership type : Company title">
+                <input id="Company_title" type="text" placeholder="company title">
+                <input id="compnay type" type="password" placeholder="compnay type:">
+                <input id="Company_register_number" type="text" placeholder="company register number:">
+                <input id="Kep_address" type="text" placeholder="Kep Address">
+                <input id="Tax_office_city" type="number" placeholder="Tax Office City">
+                <input id="Tax Office" type="text" placeholder="Tax Office:">
+                <input id="Tax_number" type="password" placeholder="tax number:">
+                </div>
+                <div class="field3" id="field3">
+                <p>Signature officer</p>
+                <input id="name surnmae" type="text" placeholder="name surnmae:">
+                <input id="title of person" type="text" placeholder="title of person:">
+                <p id="text">Company contact information</p>
+                <input id="Local_no" type="text" placeholder="local no:">
+                <input id="mobile No" type="text" placeholder="mobile No:">
+                <input id="Fax" type="number" placeholder="Fax">
+                <textarea name="Address1" id="Address" cols="39" rows="4" placeholder="Address"></textarea>
+                <p>Authorized contact information</p>
+                <input id="GSM" type="text" placeholder="GSM">
+                <input id="Personal_Email" type="text" placeholder="Email">
+                <input class="btn2" id="btn2" type="button" value="Confirm" onclick="postUsers()">
+                </div>
+            <input class="btn1" id="btn1" type="button" value="Confirm" onclick="personal()">
+            
+        </div>
+    </div>
+   <script src="post.js"></script>
+   <script src="hide.js"></script>
+</body>
+</html>

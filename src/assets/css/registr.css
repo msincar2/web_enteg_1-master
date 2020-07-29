@@ -12,38 +12,97 @@ body {
     height: 949px;
   }
 
+#Address {
+    margin-top: 20px;
+}
+
+#text_form {
+    margin-top: 30px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #434349;
+}
+
 .reg{
     position: absolute;
-    width: 561px;
-    height: 750px;
-    left: 50%;
-    top: 110px;
-    
+    width: 1295px;
+    height: 880px;
+    margin: 30px;
+    left: 29.5%;
     background: #FFFFFF;
     border-radius: 10px;
 }
 #sign{
     position: absolute;
-    left: 235px;
-    top: 50px;
+    left: 640px;
+    transform: translate(-50%, 0);
+    top: 10px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 36px;
+text-align: center;
 /* identical to box height */
 
 
 color: #434349;
 }
+
+#check {
+    margin-top: 100px;
+    left: 37%;
+    position: absolute;
+}
+
+#sign1{
+    position: absolute;
+    left: 640px;
+    transform: translate(-50%, 0);
+    top: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
 .fields{
     position: absolute;
-      width: 561px;
+      width: 461px;
       height: 491px;
-      left: 115px;
-      top: 120px;
+      left: 270px;
+      top: 150px;
 }
+
+#fields {
+    display: none;
+}
+
+#field1 {
+    display: none;
+}
+
+.field1{
+    position: absolute;
+      width: 461px;
+      height: 491px;
+      left: 680px;
+      top: 150px;
+}
+
 input{
     border: 1px solid #E2E5EC;
     box-sizing: border-box;
@@ -60,59 +119,73 @@ input{
     color: #FFFFFF;
     background: #3758FF;
 }
-#N11{
-    display: inline-block;
-    cursor: pointer;
+
+.btn1{
+    margin-top: 550px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #3758FF;
+    left: 37%;
     position: absolute;
-    left: 115px;
-    margin-top: 27px;
-    font-size: 14px;
 }
-#Hepsiburada{
-    display: inline-block;
-    cursor: pointer;
+
+
+.btn2{
+    margin-top: 170px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #3758FF;
     position: absolute;
-    left: 115px;
-    margin-top: 86px;
-    font-size: 14px;
+    left: -210px;
+
 }
-#Gittigidiyor{
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    left: 115px;
-    margin-top: 86px;
-    font-size: 14px;
-}
-#Trendyol{
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    left: 115px;
-    margin-top: 86px;
-    font-size: 14px;
-}
-#check1{
-    margin-left: -12px;
-}
-#check2{
-    margin-left: 37px;
-}
-#check3{
-    margin-left: 31px;
-}
-#check4{
-    margin-left: 15px;
-}
-.checkbox_div{
-    position: absolute;
-    
-    left: px;
-    top: 400px;
-}
-.checkbox{
+
+
+#first {
     transform:scale(0.5);
+    margin-left: -150px;
+    position: absolute;
+    margin-top: 90px;
 }
+
+#first_label {
+    display: inline-block;
+    margin-left: 495px;
+    margin-top: 100px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+#second_label {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+#second {
+    transform:scale(0.5);
+    margin-left: -150px;
+    position: absolute;
+    margin-top: 90px;
+}
+
 
 .left_toolbar {
     background-color: #1E1E2D;
@@ -128,3 +201,50 @@ input{
     margin-top: 200px;
     margin-left: 15%;
   }
+
+
+    #Address1 {
+    margin-top: 15px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 270px;
+        top: 150px;
+    display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 680px;
+        top: 150px;
+    display: none;
+    }
+    input {
+    border: 1px solid #e2e5ec;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 335px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+    }
+    #Address1 {
+    height: 120px;
+    }
+    .btn {
+    width: 335px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 230px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #3758ff;
+    }
+
+#btn2 {
+    margin-top: 105px;
+}
