@@ -1,12 +1,11 @@
 let val = [];
 let clear = [];
 let l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,l21,l22;
-let keys = ["id","username","password","email","mobile_phone_number","company_title","company_type","registered_trademark","mersis_no",
+
+let keys_1 = ["username","password","email","mobile_phone_number","company_title","company_type","registered_trademark","mersis_no",
 "company_register_number","trade_registration_number","kep_address",
 "tax_office_city","tax_office_name","tax_number","signature_officer_title","signature_officer_name_surname","company_local_no",
-"company_mobile_no","company_fax_no","company_address","contact_person_mobile_no","contact_person_email","membership_type",
-"membership_start_date","membership_end_date","create_date","update_date","active","deleted"];
-let keys_1 = ["username","password","email","mobile_phone_number"];
+"company_mobile_no","company_fax_no","company_address","contact_person_mobile_no","contact_person_email","membership_type"];
 
 function postUsers(){
     let obj = {};
