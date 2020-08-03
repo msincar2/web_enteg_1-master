@@ -1,3 +1,4 @@
+localStorage.setItem('login','0');
 let obj = {};
 let val = [];
 let val_1 =[];
@@ -21,29 +22,63 @@ function chekLog(){
     l2 = document.getElementById('Password').value;
     // l2 = Number.parseInt(l2);
     val.push(l1,l2);
-
-
-    for (let i = 0; i <= keys.length -1; i++) {
-        findObj[keys[i]] = val[i];
-    }
-
-    console.log(findObj);    
-
-    const result = obj.filter(some => 
-        Object.keys(findObj).every(key => 
-          some[key] === findObj[key])
-      );
-
-      console.log(result);
-
-      if(result.length == 0) {
-          alert("Incorrect data entered!")
-      }else{
-          goToPage();
-      }
     
-      
-}
+    for (let i = 0; i <= keys.length -1; i++) {
+    findObj[keys[i]] = val[i];
+    }
+    
+    console.log(findObj);
+    
+    const result = obj.filter(some =>
+    Object.keys(findObj).every(key =>
+    some[key] === findObj[key])
+    );
+    
+    console.log(result);
+    
+    if(result.length == 0) {
+    localStorage.setItem('login','0');
+    alert("Incorrect data entered!")
+    }else{
+    localStorage.setItem('login','1');
+    goToPage();
+    }
+    
+    var user=getCookie("username");
+    if (user != "") {
+    alert("Welcome again " + user);
+    } else {
+    user = l1;
+    if (user != "" && user != null) {
+    setCookie("username", user, 30);
+    }
+    }
+    
+    
+    }
+    
+    function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    
+    function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+    c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+    return c.substring(name.length, c.length);
+    }
+    }
+    return "";
+    }
 
 function goToPage()
 {
