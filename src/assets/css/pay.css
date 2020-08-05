@@ -1,0 +1,234 @@
+body{background: #E5E5E5;}
+body {
+margin: 0px;
+padding: 0;
+}
+
+.container {
+display: grid;
+grid-template-columns: 40% 60%;
+grid-template-rows: 100%;
+height: 949px;
+}
+.left_toolbar {
+    background-color: #1E1E2D;
+    margin: 0px;
+    }
+
+#logo {
+    margin-top: 74px;
+    width: 200px;
+    height: 158.73px;
+    margin-left: 230px;
+    }
+    
+#group {
+    margin-top: 100px;
+    margin-left: 155px;
+    width: 492px;
+    height: 383px;
+    }
+    
+#card1{
+    position: absolute;
+    left: 79%;
+    top:220px;
+}
+#card2{
+    position: absolute;
+    left: 83%;
+    top: 220px;
+}
+
+.pay{
+        position: absolute;
+        width: 729px;
+        height: 462px;
+        left: 35%;
+        top: 236px;
+        background:url(/src/assets/images/Rectangle.png);
+        border-radius: 20px;
+        margin-left: 310px;
+        
+}
+#card_number{
+    position: absolute;
+    left: 21%;
+    top: 45px;
+    width: 88px;
+    height: 16px;
+}
+#credit_card{
+    position: absolute;
+    left: 21%;
+    top: 135px;
+    width: 110px;
+    height: 16px;
+    
+}
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+
+#card_input{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 21%;
+    top:85px;
+    width: 420px;
+    height: 40px;
+}
+
+
+
+#list_input{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 21%;
+    top:175px;
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#card_holder_name{
+    position: absolute;
+    left: 21%;
+    top: 225px;
+    width: 110px;
+    height: 16px;
+}
+
+#card_input1{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 21%;
+    top:265px;
+    width: 420px;
+    height: 40px;
+}
+
+#expiration_date{
+    position: absolute;
+    left: 21%;
+    top: 315px;
+    width: 110px;
+    height: 16px;
+}
+
+#list_input1{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 21%;
+    top:355px;
+    width: 127px;
+    height: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#list_input2{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 40%;
+    top:355px;
+    width: 127px;
+    height: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#ccv{
+    position: absolute;
+    left: 63.6%;
+    top: 315px;
+    width: 110px;
+    height: 16px;
+}
+
+#ccv_input{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 63.6%;
+    top:355px;
+    width: 109px;
+    height: 40px;
+}
+
+h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+
+color: #1E1E2D;
+}
+
+#amount_to_pay{
+    position: absolute;
+    top: 440px;
+    left: 40%;
+}
+
+#cost{
+    position: absolute;
+    top: 440px;
+    left: 62%;
+    color: blue;
+}
+
+.btn,.btn:focus{
+    position: absolute;
+    width: 164px;
+    height: 50px;
+    left: 72%;
+    top: 440px;
+    background: #3758FF;
+    border: #3758FF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#select{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 120px;
+}
+
+

@@ -8,6 +8,8 @@ let keys = ["username","password"];
 let key = ["username"];
 let key_1 = ["password"];
 let user;
+
+let find_id;
 (async function loadData() {
     let url = 'http://51.68.195.202:3000/users';
     let response = await fetch(url);
@@ -35,7 +37,12 @@ function chekLog(){
     );
     
     console.log(result);
-    
+    for (let value of Object.values(result[0])) {
+        find_id = value;
+        break;
+      }
+      console.log(find_id);
+      localStorage.setItem('id',find_id);
     if(result.length == 0) {
     localStorage.setItem('login','0');
     alert("Incorrect data entered!")

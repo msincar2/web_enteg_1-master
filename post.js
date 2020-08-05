@@ -87,20 +87,20 @@ function postUsers(){
 
     console.log(obj);
 
-//     var myHeaders = new Headers();
-// myHeaders.append("Content-Type", "application/json");
+    var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
 
-// var raw = JSON.stringify([obj]);
+var raw = JSON.stringify([obj]);
 
-// var requestOptions = {
-//   method: 'POST',
-//   headers: myHeaders,
-//   body: raw,
-//   redirect: 'follow'
-// };
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
 
-// fetch("http://51.68.195.202:3000/users", requestOptions)
-//   .then(response => response.text())
-//   .then(result => console.log(result))
-//   .catch(error => console.log('error', error));
+fetch("http://51.68.195.202:3000/users", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
 }
