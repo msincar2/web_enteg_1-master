@@ -54,6 +54,7 @@
     display: none;
     grid-template-columns: 15% 20%;
     margin-top: -40px;
+    margin-left: 1.5%;
 }
 
 #btn1{
@@ -99,7 +100,31 @@ text-align: center;
     display: none;
     padding: 100px 20px;
     height: 100%;
-    grid-template-columns: 30% 70%;
+    margin-left: 1.5%;
+    margin-top: 30px;
+    grid-template-columns: 20% 20%;
+  }
+
+  .tabcontent2 {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    margin-left: 1.5%;
+    margin-top: 30px;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  #user_informations {
+    grid-template-columns: 15% 12% 12% !important;
+  }
+
+  .tabcontent1 {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    margin-left: 3%;
+    margin-top: 30px;
+    grid-template-columns: 30% 30% 30%;
   }
 
   .first {
@@ -110,14 +135,127 @@ text-align: center;
     margin-top: -60px;
   }
 
+  .second2 {
+    margin-top: -30px;
+  }
+
+  .third2 {
+    margin-top: -30px;
+  }
+
   .first input{
     margin-top: -60px;
-    width: 70%;
   }
 
   .second input{
     margin-top: -60px;
+  }
+
+  .third {
+    margin-top: -40px;
+  }
+
+  .first1 {
+    margin-top: -90px;
     width: 30%;
+  }
+
+  .second1 {
+    margin-top: -90px;
+  }
+
+  .third1 {
+    margin-top: -90px;
+  }
+
+
+  #user_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #434349;
+  }
+
+  #avatar {
+    z-index: 2;
+  }
+
+  #camera {
+    z-index: 1;
+    margin-top: -150px;
+    margin-left: -20%;
+  }
+
+
+  #user_info1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #434349;
+    margin-top: 30px;
+  }
+
+  #user_info2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #434349;
+    margin-top: 20px;
+  }
+
+  #user_info3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;
+    color: #F44336;
+    margin-top: 40px;
+  }
+
+  #user_info4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F44336;
+    margin-top: 20px;
+  }
+
+  #info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: black;
+  }
+
+  #edit {
+    margin-left: 6%;
+    margin-top: -3px;
+  }
+
+  #edit1 {
+    margin-left: 1%;
+    margin-top: -3px;
+  }
+
+  #mail {
+    margin-top: -3px;
+    margin-right: 3%;
   }
 
   .tabcontent p{
@@ -130,10 +268,77 @@ text-align: center;
         color: #434349;
   }
 
+  .tabcontent1 p{
+    margin-bottom: -15px;
+    font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+
+      color: #434349;
+}
+
+.tabcontent2 p{
+  margin-bottom: -15px;
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #434349;
+}
+
   .tabcontent input{
     margin-bottom: 20px;
     height: 40px;
     border: 1px solid #E2E5EC;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.tabcontent1 input{
+  margin-bottom: 10px;
+  height: 40px;
+  border: 1px solid #E2E5EC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.tabcontent2 input{
+  margin-bottom: 10px;
+  height: 40px;
+  border: 1px solid #E2E5EC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#notinput_text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #434349;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+#button1{
+  position: absolute;
+  top: 975px;
+  left: 50%;
+  width: 164px;
+  height: 50px;
+  background: #3758FF;
+border-radius: 4px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+  
 }
