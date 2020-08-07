@@ -201,11 +201,13 @@ color: #000000;
   #logo {
     margin-top: 50px;
     margin-left: 30%;
+    width: 35%;
   }
   
   #group {
     margin-top: 200px;
     margin-left: 15%;
+    width: 75%;
   }
 
 
@@ -267,3 +269,718 @@ font-size: 14px;
 line-height: 21px;
 color: #434349;
 }
+
+
+@media screen and (max-width: 1690px){
+    .reg{
+        position: absolute;
+        width: 67%;
+        height: 880px;
+        margin: 30px;
+        left: 29.5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    } 
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 35%;       
+    }
+
+    #sign{
+        
+        left: 49%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 49%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 36%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: 35%;
+        position: absolute;
+    }
+
+
+    .fields{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 17%;
+          top: 140px;
+    }
+    .field1{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 54%;
+          top: 150px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 17%;
+        top: 140px;
+    display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 54%;
+        top: 140px;
+    display: none;
+    }
+
+}
+
+@media screen and (max-width: 1431px){
+    .reg{
+        position: absolute;
+        width: 67%;
+        height: 880px;
+        margin: 30px;
+        left: 29.5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    } 
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 35%;       
+    }
+
+    #sign{
+        
+        left: 51%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 51%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 36%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: 35%;
+        position: absolute;
+    }
+
+
+    .fields{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 13%;
+          top: 140px;
+    }
+    .field1{
+        position: absolute;
+          width: 40%;
+          height: 491px;
+          left: 54%;
+          top: 150px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 13%;
+        top: 140px;
+        display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 40%;
+        height: 491px;
+        left: 54%;
+        top: 140px;
+    display: none;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1251px){
+    .reg{
+        position: absolute;
+        width: 67%;
+        height: 880px;
+        margin: 30px;
+        left: 29.5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    } 
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 35%;       
+    }
+
+    #sign{
+        position: absolute;
+        left: 53.5%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 53.5%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 36%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: 35%;
+        position: absolute;
+    }
+    .fields{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 10%;
+          top: 140px;
+    }
+    .field1{
+        position: absolute;
+          width: 45%;
+          height: 491px;
+          left: 54%;
+          top: 150px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 10%;
+        top: 140px;
+        display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 45%;
+        height: 491px;
+        left: 54%;
+        top: 140px;
+    display: none;
+    }
+
+    .btn2{
+        position: absolute;
+        width: 335px;
+        height: 50px;
+        margin-top: 70px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: -210px;
+    
+    }
+
+}
+@media screen and (max-width: 1150px){
+    .reg{
+        position: absolute;
+        width: 67%;
+        height: 880px;
+        margin: 30px;
+        left: 29.5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    } 
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 35%;       
+    }
+
+    #sign{
+        position: absolute;
+        left: 55%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 55%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 36%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: 35%;
+        position: absolute;
+    }
+    .fields{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 10%;
+          top: 140px;
+    }
+    .field1{
+        position: absolute;
+          width: 45%;
+          height: 491px;
+          left: 54%;
+          top: 150px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 10%;
+        top: 140px;
+        display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 45%;
+        height:491px;
+        left: 54%;
+        top: 140px;
+    display: none;
+    }
+
+    .btn2{
+        position: absolute;
+        width: 335px;
+        height: 50px;
+        margin-top: 70px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: -210px;
+    
+    }
+    input{
+        border: 1px solid #E2E5EC;
+        box-sizing: border-box;
+        font-size: 14px;
+        border-radius: 4px;
+        width: 320px;
+        height: 40px;
+        margin-top: 15px;
+        padding-left: 10px ;
+      }
+
+}
+
+@media screen and (max-width: 1150px){
+    .reg{
+        position: absolute;
+        width: 67%;
+        height: 880px;
+        margin: 30px;
+        left: 29.5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    } 
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 35%;       
+    }
+
+    #sign{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 31%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 335px;
+        background: #3758FF;
+        left: 35%;
+        position: absolute;
+    }
+    .fields{
+        position: absolute;
+          width: 461px;
+          height: 491px;
+          left: 10%;
+          top: 140px;
+    }
+    .field1{
+        position: absolute;
+          width: 45%;
+          height: 491px;
+          left: 54%;
+          top: 150px;
+    }
+    .field2 {
+        position: absolute;
+        width: 461px;
+        height: 491px;
+        left: 10%;
+        top: 140px;
+        display: none;
+    }
+    .field3 {
+        position: absolute;
+        width: 45%;
+        height:491px;
+        left: 54%;
+        top: 140px;
+    display: none;
+    }
+
+    .btn2{
+        position: absolute;
+        width: 335px;
+        height: 50px;
+        margin-top: 70px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: -210px;
+    
+    }
+    input{
+        border: 1px solid #E2E5EC;
+        box-sizing: border-box;
+        font-size: 14px;
+        border-radius: 4px;
+        width: 250px;
+        height: 40px;
+        margin-top: 15px;
+        padding-left: 10px ;
+      }
+
+      #Address1 {
+        margin-top: 20px;
+        width: 250px;
+        }
+
+        #Address {
+            margin-top: 20px;
+            width: 250px;
+        }
+        
+
+        #first {
+            transform:scale(0.5);
+            margin-left: -115px;
+            position: absolute;
+            margin-top: 90px;
+        }
+        #second {
+            transform:scale(0.5);
+            margin-left: -110px;
+            position: absolute;
+            margin-top: 90px;
+        }
+
+}
+
+
+
+
+@media screen and (max-width: 950px){
+
+    
+    #check {
+        position: absolute;
+        margin-top: 100px;
+        left: 22%;       
+    }
+
+    #sign{
+        
+        left: 49%;
+        transform: translate(-50%, 0);
+        top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+    
+    
+    color: #434349;
+    }
+
+    #sign1{
+        position: absolute;
+        left: 49%;
+        transform: translate(-50%, 0);
+        top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #first_label {
+        display: inline-block;
+        margin-left: 24.5%;
+        margin-top: 100px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    .btn1{
+        margin-top: 550px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #3758FF;
+        left: 23%;
+        position: absolute;
+    }
+
+}
+
